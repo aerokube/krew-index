@@ -3,41 +3,39 @@ kind: Plugin
 metadata:
   name: tree
 spec:
-  version: v1.0.0
+  version: latest
   homepage: https://aerokube.com/boot/latest/
   shortDescription: Manage Boot virtual machines (unstable version)
   description: |
     This plugin allows to easily manage Boot virtual machines without creating raw
     YAML manifests.
-  caveats:
-    You are using an unstable version of the plugin.
+  caveats: You are using an unstable version of the plugin.
   platforms:
-  - selector:
-      matchLabels:
-        os: darwin
-        arch: amd64
-    uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_XXX_darwin_amd64.tar.gz
-    sha256: ac2e509904bd2478e650609bc8f1c3a3c399e3a5502fce6041878adc15d8fbfa
-    bin: kubectl-vm
-  - selector:
-      matchLabels:
-        os: darwin
-        arch: arm64
-    uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_XXX_darwin_arm64.tar.gz
-    sha256: 17a1ff7aaf214972e9261b4d6b1ccd335175999716731592eb30a71c43ec0684
-    bin: kubectl-vm
-  - selector:
-      matchLabels:
-        os: linux
-        arch: amd64
-    uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_XXX_linux_amd64.tar.gz
-    sha256: 3f92e0025297c687fe219679a69bfdc126c7b706be6eb96b90a24d9905471b2d
-    bin: kubectl-vm
-  - selector:
-      matchLabels:
-        os: windows
-        arch: amd64
-    uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_XXX_windows_amd64.tar.gz
-    sha256: f8eb6d445c0c9843952aa65dda7072fe39e85a6adebed8b62184bb5d948c7837
-    bin: kubectl-vm.exe
-
+    - selector:
+        matchLabels:
+          os: darwin
+          arch: amd64
+      uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_latest_darwin_amd64.zip
+      sha256: a9082dafa614d6880eea9ce72d632ede56c9f2f76fc1d0f6296bc8d3f19fb5eb
+      bin: kubectl-vm
+    - selector:
+        matchLabels:
+          os: darwin
+          arch: arm64
+      uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_latest_darwin_arm64.zip
+      sha256: fa3e336624a579f3ccfd5723e358fed293b32ee7b7642721197a562bd6ab80f2
+      bin: kubectl-vm
+    - selector:
+        matchLabels:
+          os: linux
+          arch: amd64
+      uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_latest_linux_amd64.zip
+      sha256: 6a0bac4d1e7c0cc117ed1184d473eb4ced5453adf6398b742112d883966ff1c4
+      bin: kubectl-vm
+    - selector:
+        matchLabels:
+          os: windows
+          arch: amd64
+      uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_latest_windows_amd64.zip
+      sha256: 05177030090ed44c08476fd3c9fb72bea68bc9c8f6c5acc1fb189b482aff7d5a
+      bin: kubectl-vm.exe
