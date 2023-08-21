@@ -1,7 +1,7 @@
 apiVersion: krew.googlecontainertools.github.com/v1alpha2
 kind: Plugin
 metadata:
-  name: vm
+  name: vm-unstable
 spec:
   version: latest
   homepage: https://aerokube.com/boot/latest/
