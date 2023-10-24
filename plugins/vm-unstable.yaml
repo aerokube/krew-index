@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: vm-unstable
 spec:
-  version: v0.0.26
+  version: v0.0.27
   homepage: https://aerokube.com/boot/latest/
   shortDescription: Manage Boot virtual machines (unstable version)
   description: |
@@ -16,26 +16,26 @@ spec:
           os: darwin
           arch: amd64
       uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_latest_darwin_amd64.zip
-      sha256: 163be5ed51522995c52b0dcf61707e467967897b941ebcf21bd3c4e10b6a0d9c
+      sha256: 0e9e6ea079dd651f0155c1b868805539747170d01094b16b9fed6397f7bf0e37
       bin: kubectl-vm
     - selector:
         matchLabels:
           os: darwin
           arch: arm64
       uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_latest_darwin_arm64.zip
-      sha256: 1ed917e044e776586d2c576b55213292f02898bd8e2fd76af09ad5a511975c8e
+      sha256: 2dabe9f9622480fcfcdc5309d22ead7821a6c8eb1b3f29a3f7224266bf39a0f5
       bin: kubectl-vm
     - selector:
         matchLabels:
           os: linux
           arch: amd64
       uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_latest_linux_amd64.zip
-      sha256: cd9b0d9157a9dbeb81f940800908426c1a4a0659394ed147298af48ec397c442
+      sha256: f1e69276c8b3c7de5ae3fc8d2eeb2f588679c17feafacfeaa1d022515fab7f70
       bin: kubectl-vm
     - selector:
         matchLabels:
           os: windows
           arch: amd64
       uri: https://download.aerokube.com/boot/kubectl-vm/latest/kubectl-vm_latest_windows_amd64.zip
-      sha256: 7e32d73f8a7fd44c8454cba15f4c1100ad4bb74f38ff79a333050f3c415d9057
+      sha256: 9cc6985ba7abcdde1532d932d2501d996bf2470e5c0d37299c0f984f48928008
       bin: kubectl-vm.exe
