@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: vm
 spec:
-  version: v1.0.0
+  version: v1.0.1
   homepage: https://aerokube.com/boot/latest/
   shortDescription: Manage Boot virtual machines
   description: |
@@ -14,27 +14,27 @@ spec:
         matchLabels:
           os: darwin
           arch: amd64
-      uri: https://download.aerokube.com/boot/kubectl-vm/1.0.0/kubectl-vm_1.0.0_darwin_amd64.zip
-      sha256: 9126868cc3414b6e037f660919f12072b7eb16d59654efeb8879d59706e86bbb
+      uri: https://download.aerokube.com/boot/kubectl-vm/1.0.1/kubectl-vm_1.0.1_darwin_amd64.zip
+      sha256: dcf71acf76d6d0e641c2dff72cd827db68bc0a5da73ab5408bdf22836a78be48
       bin: kubectl-vm
     - selector:
         matchLabels:
           os: darwin
           arch: arm64
-      uri: https://download.aerokube.com/boot/kubectl-vm/1.0.0/kubectl-vm_1.0.0_darwin_arm64.zip
-      sha256: 7229d4afe538ad02bff89d4bafea18fe3b2022d91e40d861035dc6993fa95946
+      uri: https://download.aerokube.com/boot/kubectl-vm/1.0.1/kubectl-vm_1.0.1_darwin_arm64.zip
+      sha256: a0cd64c6d40551188ffb4cbfc742f7b399df88a23d471c30a0639bfc30fc8fae
       bin: kubectl-vm
     - selector:
         matchLabels:
           os: linux
           arch: amd64
-      uri: https://download.aerokube.com/boot/kubectl-vm/1.0.0/kubectl-vm_1.0.0_linux_amd64.zip
-      sha256: d883c4f10e5f6640992f0d9b04920f6b119913501b7a744374e3d487adb9ceee
+      uri: https://download.aerokube.com/boot/kubectl-vm/1.0.1/kubectl-vm_1.0.1_linux_amd64.zip
+      sha256: 75391af641d129d93f3e260e0cffd6c3e452ed3556b8ac397891b59e89f8f38b
       bin: kubectl-vm
     - selector:
         matchLabels:
           os: windows
           arch: amd64
-      uri: https://download.aerokube.com/boot/kubectl-vm/1.0.0/kubectl-vm_1.0.0_windows_amd64.zip
-      sha256: ca5c72e62a42919da9e64d4a6cd19159f3b383a5fc17805afa983e304c832f60
+      uri: https://download.aerokube.com/boot/kubectl-vm/1.0.1/kubectl-vm_1.0.1_windows_amd64.zip
+      sha256: 8de4ef556e132819bf0702d1aed76532323a28935b67542fac2499aa1266f2da
       bin: kubectl-vm.exe
